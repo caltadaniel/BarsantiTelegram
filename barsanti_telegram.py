@@ -12,7 +12,7 @@ matplotlib.use('Pdf')
 import matplotlib.pyplot as plt
 from logging.handlers import RotatingFileHandler
 
-hostname = "192.168.1.88"
+hostname = "192.168.1.96"
 
 DEBUG = False
 logFile = 'mqtt_telegram.log'
