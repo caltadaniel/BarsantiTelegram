@@ -1,0 +1,36 @@
+2018-02-05 19:39:56,638 INFO Start
+2018-02-05 19:40:17,653 INFO Start
+2018-02-05 19:40:32,529 INFO Start
+2018-02-05 19:40:33,479 DEBUG Received start request from telegram
+2018-02-05 19:42:23,320 DEBUG Received start request from telegram
+2018-02-05 19:43:53,958 INFO Start
+2018-02-05 19:43:54,274 INFO Connected to mqtt server
+2018-02-05 19:44:34,809 DEBUG Received start request from telegram
+2018-02-05 19:44:40,242 DEBUG Received plot request from telegram
+2018-02-05 19:44:40,679 DEBUG Replying to plot request to 483593285
+2018-02-05 19:50:26,936 DEBUG Stufa ON
+2018-02-05 19:50:40,253 DEBUG Stufa OFF
+2018-02-05 20:01:35,587 DEBUG Stufa ON
+2018-02-05 20:02:03,950 DEBUG Stufa OFF
+2018-02-05 20:02:07,959 DEBUG Stufa ON
+2018-02-05 20:02:14,513 DEBUG Stufa OFF
+2018-02-05 20:02:17,861 DEBUG Received plot request from telegram
+2018-02-05 20:02:18,240 DEBUG Replying to plot request to 483593285
+2018-02-05 20:02:21,975 DEBUG Received temperature request from telegram
+2018-02-05 20:02:22,131 DEBUG Replying to temperature request to 483593285
+2018-02-05 21:42:35,888 INFO Connected to mqtt server
+2018-02-05 22:42:50,979 INFO Connected to mqtt server
+2018-02-05 23:41:38,155 INFO Connected to mqtt server
+2018-02-06 00:22:36,148 INFO Connected to mqtt server
+2018-02-06 22:41:54,839 INFO Connected to mqtt server
+2018-02-07 02:03:57,613 INFO Connected to mqtt server
+2018-02-07 02:20:40,834 INFO Connected to mqtt server
+2018-02-08 22:42:38,351 INFO Connected to mqtt server
+2018-02-09 21:59:17,547 INFO Connected to mqtt server
+2018-02-09 23:31:53,200 INFO Connected to mqtt server
+2018-02-10 12:58:18,968 INFO Connected to mqtt server
+2018-02-10 16:14:02,444 INFO Connected to mqtt server
+2018-02-10 19:29:35,470 INFO Connected to mqtt server
+2018-02-10 22:44:22,174 INFO Connected to mqtt server
+2018-02-11 01:59:42,396 INFO Connected to mqtt server
+2018-02-11 02:15:05,980 INFO Connected to mqtt server
