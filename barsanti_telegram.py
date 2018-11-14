@@ -261,7 +261,7 @@ class TelegramBarsanti:
             update.message.reply_text('Wrong arguments')
 
     def run(self):
-        self.updater.start_polling()
+        self.updater.start_polling(timeout=30, read_latency=10)
         self.updater.idle()
 
 def getopts(argv):

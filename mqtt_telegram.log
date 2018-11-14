@@ -34,3 +34,817 @@
 2018-02-10 22:44:22,174 INFO Connected to mqtt server
 2018-02-11 01:59:42,396 INFO Connected to mqtt server
 2018-02-11 02:15:05,980 INFO Connected to mqtt server
+2018-10-22 16:48:07,937 INFO Start
+2018-10-22 17:00:00,687 INFO Start
+2018-10-22 17:00:01,157 DEBUG Received temperature request from telegram
+2018-10-22 17:00:01,162 DEBUG Received temperature request from telegram
+2018-10-22 17:00:01,233 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:00:01,312 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:00:01,686 DEBUG Received start request from telegram
+2018-10-22 17:00:01,688 DEBUG Received plot request from telegram
+2018-10-22 17:00:04,240 DEBUG Replying to plot request to 483593285
+2018-10-22 17:00:51,298 DEBUG Received temperature request from telegram
+2018-10-22 17:00:51,368 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:00:52,718 DEBUG Received temperature request from telegram
+2018-10-22 17:00:52,799 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:00:56,589 DEBUG Stufa ON
+2018-10-22 17:00:57,920 DEBUG Stufa OFF
+2018-10-22 17:19:33,073 DEBUG Received temperature request from telegram
+2018-10-22 17:20:04,238 DEBUG Received temperature request from telegram
+2018-10-22 17:20:18,224 INFO Start
+2018-10-22 17:20:41,409 DEBUG Received temperature request from telegram
+2018-10-22 17:20:41,471 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:20:43,230 DEBUG Received temperature request from telegram
+2018-10-22 17:20:43,310 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:20:44,225 DEBUG Received temperature request from telegram
+2018-10-22 17:20:44,308 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:38,032 INFO Start
+2018-10-22 17:23:38,071 INFO Connected to mqtt server
+2018-10-22 17:23:47,898 DEBUG Received temperature request from telegram
+2018-10-22 17:23:48,021 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:50,380 DEBUG Received temperature request from telegram
+2018-10-22 17:23:50,455 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:51,524 DEBUG Received temperature request from telegram
+2018-10-22 17:23:51,720 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:52,468 DEBUG Received temperature request from telegram
+2018-10-22 17:23:52,587 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:53,279 DEBUG Received temperature request from telegram
+2018-10-22 17:23:53,350 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:57,581 DEBUG Received temperature request from telegram
+2018-10-22 17:23:57,656 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:58,507 DEBUG Received temperature request from telegram
+2018-10-22 17:23:58,621 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:23:59,396 DEBUG Received temperature request from telegram
+2018-10-22 17:23:59,469 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:00,255 DEBUG Received temperature request from telegram
+2018-10-22 17:24:00,334 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:01,086 DEBUG Received temperature request from telegram
+2018-10-22 17:24:01,201 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:03,162 DEBUG Received temperature request from telegram
+2018-10-22 17:24:03,237 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:03,868 DEBUG Received temperature request from telegram
+2018-10-22 17:24:03,952 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:04,568 DEBUG Received temperature request from telegram
+2018-10-22 17:24:04,648 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:05,240 DEBUG Received temperature request from telegram
+2018-10-22 17:24:05,321 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:06,031 DEBUG Received temperature request from telegram
+2018-10-22 17:24:06,127 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:08,381 DEBUG Received temperature request from telegram
+2018-10-22 17:24:08,482 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:09,071 DEBUG Received temperature request from telegram
+2018-10-22 17:24:09,219 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:09,732 DEBUG Received temperature request from telegram
+2018-10-22 17:24:09,809 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:10,098 DEBUG Received temperature request from telegram
+2018-10-22 17:24:10,195 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:10,739 DEBUG Received temperature request from telegram
+2018-10-22 17:24:10,852 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:11,223 DEBUG Received temperature request from telegram
+2018-10-22 17:24:11,300 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:11,690 DEBUG Received temperature request from telegram
+2018-10-22 17:24:11,817 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:11,929 DEBUG Received temperature request from telegram
+2018-10-22 17:24:12,023 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:12,156 DEBUG Received temperature request from telegram
+2018-10-22 17:24:12,230 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:12,302 DEBUG Received temperature request from telegram
+2018-10-22 17:24:12,377 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:12,510 DEBUG Received temperature request from telegram
+2018-10-22 17:24:12,592 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:12,616 DEBUG Received temperature request from telegram
+2018-10-22 17:24:12,761 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:14,584 DEBUG Received temperature request from telegram
+2018-10-22 17:24:14,697 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:15,354 DEBUG Received temperature request from telegram
+2018-10-22 17:24:15,447 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:18,791 DEBUG Received temperature request from telegram
+2018-10-22 17:24:18,878 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:19,870 DEBUG Received temperature request from telegram
+2018-10-22 17:24:19,956 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:24,392 DEBUG Received temperature request from telegram
+2018-10-22 17:24:24,471 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:25,131 DEBUG Received temperature request from telegram
+2018-10-22 17:24:25,201 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:24:30,974 DEBUG Received temperature request from telegram
+2018-10-22 17:24:31,063 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:28:12,676 DEBUG Received temperature request from telegram
+2018-10-22 17:28:12,810 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:28:14,491 DEBUG Received plot request from telegram
+2018-10-22 17:28:38,180 DEBUG Received temperature request from telegram
+2018-10-22 17:29:09,564 DEBUG Received temperature request from telegram
+2018-10-22 17:29:26,947 INFO Start
+2018-10-22 17:29:26,979 INFO Connected to mqtt server
+2018-10-22 17:29:32,741 DEBUG Received temperature request from telegram
+2018-10-22 17:29:32,901 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:29:58,900 DEBUG Received temperature request from telegram
+2018-10-22 17:29:58,999 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:30:01,752 DEBUG Received temperature request from telegram
+2018-10-22 17:30:01,899 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:30:04,194 DEBUG Received temperature request from telegram
+2018-10-22 17:30:04,354 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:30:09,865 DEBUG Received temperature request from telegram
+2018-10-22 17:30:10,136 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:31:20,796 DEBUG Received temperature request from telegram
+2018-10-22 17:31:20,886 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:31:26,519 DEBUG Received plot request from telegram
+2018-10-22 17:31:29,110 DEBUG Replying to plot request to 483593285
+2018-10-22 17:31:37,320 DEBUG Received temperature request from telegram
+2018-10-22 17:31:37,458 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:31:56,801 DEBUG Received temperature request from telegram
+2018-10-22 17:31:56,898 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:35:11,408 DEBUG Received temperature request from telegram
+2018-10-22 17:35:11,490 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:36:59,987 DEBUG Received temperature request from telegram
+2018-10-22 17:37:00,069 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:43:07,101 DEBUG Received temperature request from telegram
+2018-10-22 17:43:07,186 DEBUG Replying to temperature request to 483593285
+2018-10-22 17:43:13,060 DEBUG Received plot request from telegram
+2018-10-22 17:43:14,516 DEBUG Replying to plot request to 483593285
+2018-10-22 18:02:38,814 DEBUG Received temperature request from telegram
+2018-10-22 18:02:39,165 DEBUG Replying to temperature request to 483593285
+2018-10-22 18:02:43,094 DEBUG Received plot request from telegram
+2018-10-22 18:02:45,498 DEBUG Replying to plot request to 483593285
+2018-10-22 18:11:15,786 DEBUG Received temperature request from telegram
+2018-10-22 18:11:15,860 DEBUG Replying to temperature request to 483593285
+2018-10-22 18:11:42,000 DEBUG Received plot request from telegram
+2018-10-22 18:11:43,721 DEBUG Replying to plot request to 483593285
+2018-10-22 18:34:42,918 DEBUG Received temperature request from telegram
+2018-10-22 18:34:43,253 DEBUG Replying to temperature request to 483593285
+2018-10-22 18:43:01,053 DEBUG Received temperature request from telegram
+2018-10-22 18:43:01,128 DEBUG Replying to temperature request to 483593285
+2018-10-22 18:43:04,401 DEBUG Received plot request from telegram
+2018-10-22 19:45:00,424 DEBUG Received temperature request from telegram
+2018-10-22 19:45:13,895 DEBUG Received temperature request from telegram
+2018-10-22 19:53:57,070 DEBUG Received temperature request from telegram
+2018-10-22 20:28:25,475 DEBUG Received temperature request from telegram
+2018-10-22 20:34:48,342 DEBUG Received temperature request from telegram
+2018-10-23 18:21:33,529 INFO Start
+2018-10-23 18:21:33,552 INFO Connected to mqtt server
+2018-10-23 18:21:43,637 DEBUG Received temperature request from telegram
+2018-10-23 18:21:43,720 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:44,907 DEBUG Received temperature request from telegram
+2018-10-23 18:21:45,041 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:45,628 DEBUG Received temperature request from telegram
+2018-10-23 18:21:45,708 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:46,383 DEBUG Received temperature request from telegram
+2018-10-23 18:21:46,528 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:47,024 DEBUG Received temperature request from telegram
+2018-10-23 18:21:47,350 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:47,537 DEBUG Received temperature request from telegram
+2018-10-23 18:21:47,637 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:48,320 DEBUG Received temperature request from telegram
+2018-10-23 18:21:48,397 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:48,783 DEBUG Received temperature request from telegram
+2018-10-23 18:21:48,855 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:49,077 DEBUG Received temperature request from telegram
+2018-10-23 18:21:49,236 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:49,381 DEBUG Received temperature request from telegram
+2018-10-23 18:21:49,480 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:49,636 DEBUG Received temperature request from telegram
+2018-10-23 18:21:51,226 DEBUG Received temperature request from telegram
+2018-10-23 18:21:51,232 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:52,262 DEBUG Received temperature request from telegram
+2018-10-23 18:21:52,276 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:52,392 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:53,562 DEBUG Received temperature request from telegram
+2018-10-23 18:21:53,630 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:54,401 DEBUG Received temperature request from telegram
+2018-10-23 18:21:54,541 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:55,228 DEBUG Received temperature request from telegram
+2018-10-23 18:21:55,330 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:21:57,328 DEBUG Stufa ON
+2018-10-23 18:21:58,352 DEBUG Stufa OFF
+2018-10-23 18:21:59,174 DEBUG Stufa ON
+2018-10-23 18:21:59,694 DEBUG Stufa OFF
+2018-10-23 18:22:00,262 DEBUG Stufa ON
+2018-10-23 18:22:00,833 DEBUG Stufa OFF
+2018-10-23 18:22:01,354 DEBUG Stufa ON
+2018-10-23 18:22:02,333 DEBUG Stufa OFF
+2018-10-23 18:22:02,839 DEBUG Stufa ON
+2018-10-23 18:22:03,317 DEBUG Stufa OFF
+2018-10-23 18:22:03,802 DEBUG Stufa ON
+2018-10-23 18:22:04,471 DEBUG Stufa OFF
+2018-10-23 18:22:04,725 DEBUG Stufa ON
+2018-10-23 18:22:05,317 DEBUG Stufa OFF
+2018-10-23 18:22:06,000 DEBUG Stufa ON
+2018-10-23 18:22:06,465 DEBUG Stufa OFF
+2018-10-23 18:22:09,121 DEBUG Received plot request from telegram
+2018-10-23 18:22:11,870 DEBUG Replying to plot request to 483593285
+2018-10-23 18:29:42,670 DEBUG Received temperature request from telegram
+2018-10-23 18:29:42,891 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:43,662 DEBUG Received temperature request from telegram
+2018-10-23 18:29:43,742 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:44,365 DEBUG Received temperature request from telegram
+2018-10-23 18:29:44,437 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:45,090 DEBUG Received temperature request from telegram
+2018-10-23 18:29:45,320 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:46,258 DEBUG Received temperature request from telegram
+2018-10-23 18:29:46,385 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:46,962 DEBUG Received temperature request from telegram
+2018-10-23 18:29:47,054 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:47,704 DEBUG Received temperature request from telegram
+2018-10-23 18:29:47,777 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:48,341 DEBUG Received temperature request from telegram
+2018-10-23 18:29:48,412 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:48,972 DEBUG Received temperature request from telegram
+2018-10-23 18:29:49,742 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:50,741 DEBUG Received temperature request from telegram
+2018-10-23 18:29:50,870 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:51,481 DEBUG Received temperature request from telegram
+2018-10-23 18:29:51,576 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:52,086 DEBUG Received temperature request from telegram
+2018-10-23 18:29:52,152 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:52,690 DEBUG Received temperature request from telegram
+2018-10-23 18:29:52,777 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:53,293 DEBUG Received temperature request from telegram
+2018-10-23 18:29:53,373 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:53,938 DEBUG Received temperature request from telegram
+2018-10-23 18:29:54,034 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:54,574 DEBUG Received temperature request from telegram
+2018-10-23 18:29:54,656 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:55,243 DEBUG Received temperature request from telegram
+2018-10-23 18:29:55,336 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:55,869 DEBUG Received temperature request from telegram
+2018-10-23 18:29:56,173 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:56,389 DEBUG Received temperature request from telegram
+2018-10-23 18:29:56,471 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:58,600 DEBUG Received temperature request from telegram
+2018-10-23 18:29:58,683 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:29:59,418 DEBUG Received temperature request from telegram
+2018-10-23 18:29:59,539 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:30:00,137 DEBUG Received temperature request from telegram
+2018-10-23 18:30:00,233 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:30:00,842 DEBUG Received temperature request from telegram
+2018-10-23 18:30:00,929 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:30:01,501 DEBUG Received temperature request from telegram
+2018-10-23 18:30:01,596 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:30:02,299 DEBUG Received temperature request from telegram
+2018-10-23 18:30:02,700 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:35:44,488 DEBUG Received temperature request from telegram
+2018-10-23 18:35:44,573 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:38:22,504 DEBUG Received temperature request from telegram
+2018-10-23 18:38:22,645 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:38:23,312 DEBUG Received temperature request from telegram
+2018-10-23 18:38:23,452 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:38:24,280 DEBUG Stufa ON
+2018-10-23 18:38:25,172 DEBUG Stufa OFF
+2018-10-23 18:38:25,889 DEBUG Stufa ON
+2018-10-23 18:38:26,615 DEBUG Stufa OFF
+2018-10-23 18:38:32,482 DEBUG Stufa ON
+2018-10-23 18:38:33,477 DEBUG Stufa OFF
+2018-10-23 18:38:34,342 DEBUG Stufa ON
+2018-10-23 18:38:35,384 DEBUG Stufa OFF
+2018-10-23 18:38:36,335 DEBUG Received plot request from telegram
+2018-10-23 18:38:38,306 DEBUG Replying to plot request to 483593285
+2018-10-23 18:38:45,355 DEBUG Received temperature request from telegram
+2018-10-23 18:38:45,437 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:40:32,493 DEBUG Received temperature request from telegram
+2018-10-23 18:40:33,801 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:40:34,046 DEBUG Received temperature request from telegram
+2018-10-23 18:40:35,361 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:40:38,247 DEBUG Received temperature request from telegram
+2018-10-23 18:40:46,399 DEBUG Received temperature request from telegram
+2018-10-23 18:52:59,563 INFO Start
+2018-10-23 18:52:59,606 INFO Connected to mqtt server
+2018-10-23 18:53:12,594 DEBUG Received temperature request from telegram
+2018-10-23 18:53:12,730 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:53:22,619 DEBUG Received temperature request from telegram
+2018-10-23 18:53:22,722 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:54:14,922 DEBUG Received temperature request from telegram
+2018-10-23 18:54:15,065 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:54:25,013 DEBUG Received temperature request from telegram
+2018-10-23 18:54:25,094 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:55:45,486 INFO Start
+2018-10-23 18:55:45,528 INFO Connected to mqtt server
+2018-10-23 18:55:47,108 DEBUG Received temperature request from telegram
+2018-10-23 18:55:47,308 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:55:49,915 DEBUG Received temperature request from telegram
+2018-10-23 18:55:51,126 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:55:52,085 DEBUG Received temperature request from telegram
+2018-10-23 18:55:52,229 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:55:53,164 DEBUG Received temperature request from telegram
+2018-10-23 18:55:53,360 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:55:54,157 DEBUG Stufa ON
+2018-10-23 18:55:56,554 DEBUG Stufa OFF
+2018-10-23 18:58:06,999 DEBUG Received temperature request from telegram
+2018-10-23 18:58:07,217 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:07,745 DEBUG Received temperature request from telegram
+2018-10-23 18:58:07,842 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:09,015 DEBUG Received temperature request from telegram
+2018-10-23 18:58:09,110 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:10,283 DEBUG Received temperature request from telegram
+2018-10-23 18:58:10,424 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:11,030 DEBUG Received temperature request from telegram
+2018-10-23 18:58:11,138 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:11,696 DEBUG Received temperature request from telegram
+2018-10-23 18:58:11,804 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:12,406 DEBUG Received temperature request from telegram
+2018-10-23 18:58:12,507 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:13,124 DEBUG Received temperature request from telegram
+2018-10-23 18:58:13,213 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:14,299 DEBUG Stufa ON
+2018-10-23 18:58:15,199 DEBUG Stufa OFF
+2018-10-23 18:58:15,997 DEBUG Stufa ON
+2018-10-23 18:58:16,821 DEBUG Stufa OFF
+2018-10-23 18:58:17,625 DEBUG Stufa ON
+2018-10-23 18:58:18,514 DEBUG Stufa OFF
+2018-10-23 18:58:19,941 DEBUG Stufa ON
+2018-10-23 18:58:20,707 DEBUG Stufa OFF
+2018-10-23 18:58:21,419 DEBUG Stufa ON
+2018-10-23 18:58:22,208 DEBUG Stufa OFF
+2018-10-23 18:58:22,972 DEBUG Stufa ON
+2018-10-23 18:58:23,651 DEBUG Stufa OFF
+2018-10-23 18:58:25,125 DEBUG Stufa ON
+2018-10-23 18:58:25,807 DEBUG Stufa OFF
+2018-10-23 18:58:26,382 DEBUG Stufa ON
+2018-10-23 18:58:26,938 DEBUG Stufa OFF
+2018-10-23 18:58:28,469 DEBUG Received plot request from telegram
+2018-10-23 18:58:31,553 DEBUG Replying to plot request to 483593285
+2018-10-23 18:58:35,405 DEBUG Stufa ON
+2018-10-23 18:58:36,427 DEBUG Stufa OFF
+2018-10-23 18:58:37,558 DEBUG Received plot request from telegram
+2018-10-23 18:58:40,093 DEBUG Replying to plot request to 483593285
+2018-10-23 18:58:42,516 DEBUG Received temperature request from telegram
+2018-10-23 18:58:42,628 DEBUG Replying to temperature request to 483593285
+2018-10-23 18:58:43,738 DEBUG Received temperature request from telegram
+2018-10-23 18:58:43,847 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:01:51,013 DEBUG Received temperature request from telegram
+2018-10-23 19:01:51,115 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:01:53,370 DEBUG Received temperature request from telegram
+2018-10-23 19:01:53,538 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:01:56,619 DEBUG Received temperature request from telegram
+2018-10-23 19:01:56,713 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:01:57,751 DEBUG Received temperature request from telegram
+2018-10-23 19:01:57,867 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:01:58,738 DEBUG Received temperature request from telegram
+2018-10-23 19:01:58,839 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:01:59,794 DEBUG Received temperature request from telegram
+2018-10-23 19:01:59,893 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:02:00,716 DEBUG Received temperature request from telegram
+2018-10-23 19:02:00,814 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:02:01,772 DEBUG Received temperature request from telegram
+2018-10-23 19:02:01,909 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:02:02,962 DEBUG Stufa ON
+2018-10-23 19:02:03,768 DEBUG Stufa OFF
+2018-10-23 19:02:04,519 DEBUG Stufa ON
+2018-10-23 19:02:05,213 DEBUG Stufa OFF
+2018-10-23 19:02:05,965 DEBUG Stufa ON
+2018-10-23 19:02:06,516 DEBUG Stufa OFF
+2018-10-23 19:02:07,090 DEBUG Stufa ON
+2018-10-23 19:02:07,633 DEBUG Stufa OFF
+2018-10-23 19:02:08,464 DEBUG Received plot request from telegram
+2018-10-23 19:02:10,969 DEBUG Replying to plot request to 483593285
+2018-10-23 19:13:32,422 DEBUG Received temperature request from telegram
+2018-10-23 19:13:32,536 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:13:34,057 DEBUG Received temperature request from telegram
+2018-10-23 19:13:34,215 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:13:37,746 DEBUG Stufa OFF
+2018-10-23 19:13:38,786 DEBUG Stufa ON
+2018-10-23 19:13:39,842 DEBUG Stufa OFF
+2018-10-23 19:13:41,212 DEBUG Received temperature request from telegram
+2018-10-23 19:13:41,315 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:13:41,990 DEBUG Received temperature request from telegram
+2018-10-23 19:13:42,100 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:13:42,723 DEBUG Received temperature request from telegram
+2018-10-23 19:13:42,844 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:13:43,439 DEBUG Received temperature request from telegram
+2018-10-23 19:13:43,571 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:13:44,179 DEBUG Received temperature request from telegram
+2018-10-23 19:13:44,288 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:11,744 DEBUG Received temperature request from telegram
+2018-10-23 19:19:11,875 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:12,668 DEBUG Received temperature request from telegram
+2018-10-23 19:19:12,801 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:13,376 DEBUG Received temperature request from telegram
+2018-10-23 19:19:13,524 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:14,090 DEBUG Received temperature request from telegram
+2018-10-23 19:19:14,482 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:15,504 DEBUG Stufa ON
+2018-10-23 19:19:19,395 DEBUG Stufa OFF
+2018-10-23 19:19:22,037 DEBUG Stufa ON
+2018-10-23 19:19:22,812 DEBUG Stufa OFF
+2018-10-23 19:19:24,383 DEBUG Received temperature request from telegram
+2018-10-23 19:19:24,516 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:30,254 DEBUG Received temperature request from telegram
+2018-10-23 19:19:30,470 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:19:31,794 DEBUG Received plot request from telegram
+2018-10-23 19:19:34,369 DEBUG Replying to plot request to 483593285
+2018-10-23 19:23:15,494 DEBUG Received temperature request from telegram
+2018-10-23 19:23:15,622 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:16,371 DEBUG Received temperature request from telegram
+2018-10-23 19:23:16,495 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:17,117 DEBUG Received temperature request from telegram
+2018-10-23 19:23:17,242 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:18,264 DEBUG Received temperature request from telegram
+2018-10-23 19:23:18,381 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:19,196 DEBUG Received temperature request from telegram
+2018-10-23 19:23:19,313 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:20,043 DEBUG Received temperature request from telegram
+2018-10-23 19:23:20,154 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:20,802 DEBUG Received temperature request from telegram
+2018-10-23 19:23:20,910 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:21,972 DEBUG Received temperature request from telegram
+2018-10-23 19:23:22,095 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:23:23,946 DEBUG Stufa ON
+2018-10-23 19:23:25,120 DEBUG Stufa OFF
+2018-10-23 19:28:49,752 DEBUG Received temperature request from telegram
+2018-10-23 19:28:49,875 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:28:51,283 DEBUG Received temperature request from telegram
+2018-10-23 19:28:51,762 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:28:53,199 DEBUG Received temperature request from telegram
+2018-10-23 19:28:53,498 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:28:54,662 DEBUG Received temperature request from telegram
+2018-10-23 19:28:54,839 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:28:55,620 DEBUG Received temperature request from telegram
+2018-10-23 19:28:55,767 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:28:56,390 DEBUG Received temperature request from telegram
+2018-10-23 19:28:56,536 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:28:57,404 DEBUG Stufa ON
+2018-10-23 19:28:59,109 DEBUG Stufa OFF
+2018-10-23 19:29:00,372 DEBUG Received temperature request from telegram
+2018-10-23 19:29:00,521 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:29:01,217 DEBUG Received temperature request from telegram
+2018-10-23 19:29:01,375 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:29:02,117 DEBUG Received temperature request from telegram
+2018-10-23 19:29:02,260 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:33,774 DEBUG Received temperature request from telegram
+2018-10-23 19:32:33,931 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:34,692 DEBUG Received temperature request from telegram
+2018-10-23 19:32:34,852 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:35,431 DEBUG Received temperature request from telegram
+2018-10-23 19:32:35,613 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:36,202 DEBUG Received temperature request from telegram
+2018-10-23 19:32:36,355 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:36,945 DEBUG Received temperature request from telegram
+2018-10-23 19:32:37,099 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:38,585 DEBUG Received temperature request from telegram
+2018-10-23 19:32:38,729 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:32:40,031 DEBUG Stufa ON
+2018-10-23 19:32:40,866 DEBUG Stufa OFF
+2018-10-23 19:32:41,775 DEBUG Received plot request from telegram
+2018-10-23 19:32:44,841 DEBUG Replying to plot request to 483593285
+2018-10-23 19:33:01,122 DEBUG Received temperature request from telegram
+2018-10-23 19:33:01,277 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:40:32,636 DEBUG Received temperature request from telegram
+2018-10-23 19:40:32,855 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:40:33,876 DEBUG Stufa ON
+2018-10-23 19:40:34,752 DEBUG Stufa OFF
+2018-10-23 19:40:36,847 DEBUG Received plot request from telegram
+2018-10-23 19:40:39,685 DEBUG Replying to plot request to 483593285
+2018-10-23 19:41:02,426 DEBUG Received temperature request from telegram
+2018-10-23 19:41:02,586 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:41:03,283 DEBUG Received temperature request from telegram
+2018-10-23 19:41:03,451 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:41:04,178 DEBUG Received temperature request from telegram
+2018-10-23 19:41:04,328 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:41:04,934 DEBUG Received temperature request from telegram
+2018-10-23 19:41:05,124 DEBUG Replying to temperature request to 483593285
+2018-10-23 19:41:05,984 DEBUG Stufa ON
+2018-10-23 19:41:07,010 DEBUG Stufa OFF
+2018-10-23 20:11:51,072 DEBUG Received temperature request from telegram
+2018-10-23 20:11:51,585 DEBUG Replying to temperature request to 483593285
+2018-10-23 20:11:52,482 DEBUG Received temperature request from telegram
+2018-10-23 20:11:52,619 DEBUG Replying to temperature request to 483593285
+2018-10-23 20:11:54,851 DEBUG Stufa ON
+2018-10-23 20:11:55,624 DEBUG Stufa OFF
+2018-10-23 20:11:56,483 DEBUG Stufa ON
+2018-10-23 20:11:57,108 DEBUG Stufa OFF
+2018-10-23 20:11:57,722 DEBUG Stufa ON
+2018-10-23 20:11:58,277 DEBUG Stufa OFF
+2018-10-23 20:12:00,339 DEBUG Received plot request from telegram
+2018-10-23 20:12:03,468 DEBUG Replying to plot request to 483593285
+2018-10-23 20:12:05,312 DEBUG Received temperature request from telegram
+2018-10-23 20:12:05,447 DEBUG Replying to temperature request to 483593285
+2018-10-23 20:39:33,174 DEBUG Stufa ON
+2018-10-23 20:39:37,046 DEBUG Received temperature request from telegram
+2018-10-23 20:39:37,156 DEBUG Replying to temperature request to 483593285
+2018-10-23 20:39:37,870 DEBUG Stufa OFF
+2018-10-23 20:39:39,249 DEBUG Received plot request from telegram
+2018-10-23 20:39:42,942 DEBUG Replying to plot request to 483593285
+2018-10-23 20:53:52,399 DEBUG Received temperature request from telegram
+2018-10-23 20:53:52,527 DEBUG Replying to temperature request to 483593285
+2018-10-23 20:53:54,935 DEBUG Stufa ON
+2018-10-23 20:54:01,729 DEBUG Stufa OFF
+2018-10-23 20:54:46,666 DEBUG Stufa ON
+2018-10-23 20:54:49,885 DEBUG Stufa OFF
+2018-10-23 21:27:11,346 DEBUG Stufa ON
+2018-10-23 21:27:14,988 DEBUG Received temperature request from telegram
+2018-10-23 21:27:15,102 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:27:21,471 DEBUG Stufa OFF
+2018-10-23 21:27:23,164 DEBUG Received plot request from telegram
+2018-10-23 21:27:26,088 DEBUG Replying to plot request to 483593285
+2018-10-23 21:43:04,335 DEBUG Received temperature request from telegram
+2018-10-23 21:43:04,700 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:43:12,803 DEBUG Stufa ON
+2018-10-23 21:43:20,949 DEBUG Stufa OFF
+2018-10-23 21:43:23,402 DEBUG Received plot request from telegram
+2018-10-23 21:46:46,538 DEBUG Stufa ON
+2018-10-23 21:46:58,912 DEBUG Stufa OFF
+2018-10-23 21:47:00,552 DEBUG Received temperature request from telegram
+2018-10-23 21:49:17,829 INFO Start
+2018-10-23 21:49:17,862 INFO Connected to mqtt server
+2018-10-23 21:49:22,491 DEBUG Received temperature request from telegram
+2018-10-23 21:49:22,558 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:49:24,308 DEBUG Received temperature request from telegram
+2018-10-23 21:49:24,447 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:49:25,550 DEBUG Received temperature request from telegram
+2018-10-23 21:49:25,631 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:49:26,643 DEBUG Received temperature request from telegram
+2018-10-23 21:49:26,719 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:49:28,260 DEBUG Stufa ON
+2018-10-23 21:49:29,060 DEBUG Stufa OFF
+2018-10-23 21:49:47,280 DEBUG Stufa ON
+2018-10-23 21:49:48,040 DEBUG Stufa OFF
+2018-10-23 21:49:48,837 DEBUG Received temperature request from telegram
+2018-10-23 21:49:48,903 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:49:51,747 DEBUG Received temperature request from telegram
+2018-10-23 21:49:51,817 DEBUG Replying to temperature request to 483593285
+2018-10-23 21:50:03,553 DEBUG Received temperature request from telegram
+2018-10-23 21:50:03,651 DEBUG Replying to temperature request to 483593285
+2018-10-24 04:10:53,583 DEBUG Received temperature request from telegram
+2018-10-24 04:10:53,936 DEBUG Replying to temperature request to 483593285
+2018-10-24 04:10:59,379 DEBUG Received plot request from telegram
+2018-10-24 04:11:02,405 DEBUG Replying to plot request to 483593285
+2018-10-24 04:11:13,712 DEBUG Stufa ON
+2018-10-24 04:11:22,941 DEBUG Received temperature request from telegram
+2018-10-24 04:11:23,012 DEBUG Replying to temperature request to 483593285
+2018-10-24 04:17:31,061 DEBUG Received temperature request from telegram
+2018-10-24 04:17:31,136 DEBUG Replying to temperature request to 483593285
+2018-10-24 04:17:33,131 DEBUG Received plot request from telegram
+2018-10-24 04:17:35,417 DEBUG Replying to plot request to 483593285
+2018-10-24 04:18:17,609 DEBUG Received temperature request from telegram
+2018-10-24 04:18:17,690 DEBUG Replying to temperature request to 483593285
+2018-10-24 04:18:24,761 DEBUG Received plot request from telegram
+2018-10-24 04:18:28,590 DEBUG Replying to plot request to 483593285
+2018-10-24 04:28:08,873 DEBUG Received temperature request from telegram
+2018-10-24 04:28:09,030 DEBUG Replying to temperature request to 483593285
+2018-10-24 04:28:12,134 DEBUG Received plot request from telegram
+2018-10-24 04:28:14,753 DEBUG Replying to plot request to 483593285
+2018-10-24 05:02:44,357 DEBUG Received temperature request from telegram
+2018-10-24 05:02:44,422 DEBUG Replying to temperature request to 483593285
+2018-10-24 05:02:47,525 DEBUG Received plot request from telegram
+2018-10-24 05:02:50,818 DEBUG Replying to plot request to 483593285
+2018-10-24 05:11:50,702 DEBUG Received plot request from telegram
+2018-10-24 05:11:52,633 DEBUG Replying to plot request to 483593285
+2018-10-24 05:12:11,768 DEBUG Stufa OFF
+2018-10-24 05:29:49,623 DEBUG Received plot request from telegram
+2018-10-24 05:29:52,386 DEBUG Replying to plot request to 483593285
+2018-10-24 05:34:55,656 DEBUG Received temperature request from telegram
+2018-10-24 05:34:55,722 DEBUG Replying to temperature request to 483593285
+2018-10-24 06:10:16,693 DEBUG Received temperature request from telegram
+2018-10-24 06:10:17,073 DEBUG Replying to temperature request to 483593285
+2018-10-24 07:55:37,845 DEBUG Received temperature request from telegram
+2018-10-24 07:55:38,191 DEBUG Replying to temperature request to 483593285
+2018-10-24 07:55:43,409 DEBUG Received plot request from telegram
+2018-10-24 07:55:46,750 DEBUG Replying to plot request to 483593285
+2018-10-24 08:28:32,767 DEBUG Received plot request from telegram
+2018-10-24 08:28:36,919 DEBUG Replying to plot request to 483593285
+2018-10-24 08:28:52,371 DEBUG Received temperature request from telegram
+2018-10-24 08:28:52,445 DEBUG Replying to temperature request to 483593285
+2018-10-24 08:38:43,751 DEBUG Received temperature request from telegram
+2018-10-24 08:38:43,822 DEBUG Replying to temperature request to 483593285
+2018-10-24 08:38:45,088 DEBUG Received plot request from telegram
+2018-10-24 08:38:48,797 DEBUG Replying to plot request to 483593285
+2018-10-24 12:00:31,128 DEBUG Received temperature request from telegram
+2018-10-24 12:00:31,444 DEBUG Replying to temperature request to 483593285
+2018-10-24 12:00:33,169 DEBUG Received plot request from telegram
+2018-10-24 12:00:37,040 DEBUG Replying to plot request to 483593285
+2018-10-24 12:20:43,394 DEBUG Received temperature request from telegram
+2018-10-24 12:20:43,463 DEBUG Replying to temperature request to 483593285
+2018-10-24 12:20:44,517 DEBUG Received temperature request from telegram
+2018-10-24 12:20:44,597 DEBUG Replying to temperature request to 483593285
+2018-10-24 12:20:45,476 DEBUG Received temperature request from telegram
+2018-10-24 12:20:45,545 DEBUG Replying to temperature request to 483593285
+2018-10-24 12:20:46,244 DEBUG Received temperature request from telegram
+2018-10-24 12:20:46,304 DEBUG Replying to temperature request to 483593285
+2018-10-24 12:20:47,125 DEBUG Received plot request from telegram
+2018-10-24 12:20:51,346 DEBUG Replying to plot request to 483593285
+2018-10-24 13:37:42,269 DEBUG Received temperature request from telegram
+2018-10-24 13:37:42,607 DEBUG Replying to temperature request to 483593285
+2018-10-24 13:37:44,555 DEBUG Received plot request from telegram
+2018-10-24 13:37:48,472 DEBUG Replying to plot request to 483593285
+2018-10-24 13:57:19,713 DEBUG Received temperature request from telegram
+2018-10-24 13:57:20,091 DEBUG Replying to temperature request to 483593285
+2018-10-24 13:57:21,303 DEBUG Received temperature request from telegram
+2018-10-24 13:57:21,391 DEBUG Replying to temperature request to 483593285
+2018-10-24 13:57:22,361 DEBUG Received temperature request from telegram
+2018-10-24 13:57:22,444 DEBUG Replying to temperature request to 483593285
+2018-10-24 14:57:20,529 DEBUG Received temperature request from telegram
+2018-10-24 14:57:20,913 DEBUG Replying to temperature request to 483593285
+2018-10-24 16:26:20,646 DEBUG Received temperature request from telegram
+2018-10-24 16:26:20,943 DEBUG Replying to temperature request to 483593285
+2018-10-24 17:05:24,771 DEBUG Received temperature request from telegram
+2018-10-24 17:05:25,134 DEBUG Replying to temperature request to 483593285
+2018-10-24 17:59:18,870 DEBUG Received temperature request from telegram
+2018-10-24 17:59:19,197 DEBUG Replying to temperature request to 483593285
+2018-10-24 17:59:21,415 DEBUG Received temperature request from telegram
+2018-10-24 17:59:21,502 DEBUG Replying to temperature request to 483593285
+2018-10-24 17:59:23,245 DEBUG Stufa ON
+2018-10-24 17:59:27,098 DEBUG Stufa OFF
+2018-10-24 20:44:01,355 DEBUG Received temperature request from telegram
+2018-10-24 20:44:01,780 DEBUG Replying to temperature request to 483593285
+2018-10-24 20:44:03,365 DEBUG Received plot request from telegram
+2018-10-24 20:44:07,615 DEBUG Replying to plot request to 483593285
+2018-10-24 22:40:52,616 DEBUG Received temperature request from telegram
+2018-10-24 22:40:53,079 DEBUG Replying to temperature request to 483593285
+2018-10-24 22:40:54,501 DEBUG Received plot request from telegram
+2018-10-24 22:40:59,230 DEBUG Replying to plot request to 483593285
+2018-10-25 05:03:05,609 DEBUG Received temperature request from telegram
+2018-10-25 05:03:05,926 DEBUG Replying to temperature request to 483593285
+2018-10-25 05:03:29,863 DEBUG Received temperature request from telegram
+2018-10-25 05:03:29,928 DEBUG Replying to temperature request to 483593285
+2018-10-25 05:03:49,088 DEBUG Received plot request from telegram
+2018-10-25 05:03:53,518 DEBUG Replying to plot request to 483593285
+2018-10-25 12:28:21,325 DEBUG Received temperature request from telegram
+2018-10-25 12:28:21,631 DEBUG Replying to temperature request to 483593285
+2018-10-25 12:28:23,031 DEBUG Received plot request from telegram
+2018-10-25 12:28:27,829 DEBUG Replying to plot request to 483593285
+2018-10-25 18:35:57,921 DEBUG Stufa ON
+2018-10-25 18:35:59,363 DEBUG Stufa OFF
+2018-10-25 22:11:30,451 DEBUG Received temperature request from telegram
+2018-10-25 22:11:30,877 DEBUG Replying to temperature request to 483593285
+2018-10-26 05:04:00,547 DEBUG Received plot request from telegram
+2018-10-26 05:04:03,245 DEBUG Received temperature request from telegram
+2018-10-26 05:04:05,764 DEBUG Replying to plot request to 483593285
+2018-10-26 05:04:05,918 DEBUG Replying to temperature request to 483593285
+2018-10-26 15:50:21,921 DEBUG Received temperature request from telegram
+2018-10-26 15:50:22,297 DEBUG Replying to temperature request to 483593285
+2018-10-27 11:22:36,823 DEBUG Received temperature request from telegram
+2018-10-27 11:22:37,165 DEBUG Replying to temperature request to 483593285
+2018-10-27 11:22:39,017 DEBUG Received plot request from telegram
+2018-10-27 11:22:43,522 DEBUG Replying to plot request to 483593285
+2018-10-27 22:28:17,631 DEBUG Received temperature request from telegram
+2018-10-27 22:28:17,909 DEBUG Replying to temperature request to 483593285
+2018-10-27 22:28:19,308 DEBUG Received plot request from telegram
+2018-10-27 22:28:23,105 DEBUG Replying to plot request to 483593285
+2018-10-29 09:01:18,691 DEBUG Received temperature request from telegram
+2018-10-29 09:01:19,072 DEBUG Replying to temperature request to 483593285
+2018-10-29 09:01:20,412 DEBUG Received plot request from telegram
+2018-10-29 09:01:24,871 DEBUG Replying to plot request to 483593285
+2018-10-30 16:36:25,358 DEBUG Received temperature request from telegram
+2018-10-30 16:36:25,701 DEBUG Replying to temperature request to 483593285
+2018-10-30 16:36:27,554 DEBUG Stufa ON
+2018-10-30 16:46:56,832 DEBUG Received temperature request from telegram
+2018-10-30 16:46:56,915 DEBUG Replying to temperature request to 483593285
+2018-10-30 16:46:57,853 DEBUG Received plot request from telegram
+2018-10-30 16:47:02,255 DEBUG Replying to plot request to 483593285
+2018-10-30 19:24:50,608 DEBUG Stufa OFF
+2018-10-30 22:11:49,883 DEBUG Received temperature request from telegram
+2018-10-30 22:11:50,234 DEBUG Replying to temperature request to 483593285
+2018-10-31 06:05:30,276 DEBUG Received temperature request from telegram
+2018-10-31 06:05:30,626 DEBUG Replying to temperature request to 483593285
+2018-10-31 11:57:24,200 DEBUG Received temperature request from telegram
+2018-10-31 11:57:24,532 DEBUG Replying to temperature request to 483593285
+2018-10-31 11:57:26,427 DEBUG Received plot request from telegram
+2018-10-31 11:57:31,970 DEBUG Replying to plot request to 483593285
+2018-10-31 17:54:32,650 DEBUG Received start request from telegram
+2018-11-01 07:01:10,289 DEBUG Received temperature request from telegram
+2018-11-01 07:01:10,627 DEBUG Replying to temperature request to 483593285
+2018-11-01 07:01:12,720 DEBUG Received plot request from telegram
+2018-11-01 07:01:15,538 DEBUG Replying to plot request to 483593285
+2018-11-01 07:03:49,839 DEBUG Stufa OFF
+2018-11-01 07:03:55,172 DEBUG Stufa ON
+2018-11-01 07:34:01,381 DEBUG Received plot request from telegram
+2018-11-01 07:34:04,456 DEBUG Replying to plot request to 483593285
+2018-11-01 07:34:19,421 DEBUG Stufa OFF
+2018-11-01 18:31:07,391 DEBUG Received temperature request from telegram
+2018-11-01 18:31:07,792 DEBUG Replying to temperature request to 483593285
+2018-11-01 18:31:10,294 DEBUG Stufa ON
+2018-11-01 18:31:13,312 DEBUG Received plot request from telegram
+2018-11-01 18:31:17,913 DEBUG Replying to plot request to 483593285
+2018-11-01 19:23:49,383 DEBUG Received plot request from telegram
+2018-11-01 19:23:54,147 DEBUG Replying to plot request to 483593285
+2018-11-01 19:31:34,355 DEBUG Received temperature request from telegram
+2018-11-01 19:31:34,440 DEBUG Replying to temperature request to 483593285
+2018-11-01 19:31:35,917 DEBUG Received plot request from telegram
+2018-11-01 19:31:38,961 DEBUG Replying to plot request to 483593285
+2018-11-01 19:50:21,493 DEBUG Stufa OFF
+2018-11-02 13:53:31,084 DEBUG Received temperature request from telegram
+2018-11-02 13:53:31,457 DEBUG Replying to temperature request to 483593285
+2018-11-02 13:53:32,332 DEBUG Stufa ON
+2018-11-02 15:25:22,003 DEBUG Received plot request from telegram
+2018-11-02 15:25:26,729 DEBUG Replying to plot request to 483593285
+2018-11-02 17:28:36,514 DEBUG Received temperature request from telegram
+2018-11-02 17:28:36,901 DEBUG Replying to temperature request to 483593285
+2018-11-02 17:28:40,722 DEBUG Stufa OFF
+2018-11-02 19:29:17,097 INFO Connected to mqtt server
+2018-11-02 19:42:42,512 DEBUG Received temperature request from telegram
+2018-11-02 19:42:42,884 DEBUG Replying to temperature request to 483593285
+2018-11-02 19:42:45,274 DEBUG Received plot request from telegram
+2018-11-03 11:56:22,524 DEBUG Received temperature request from telegram
+2018-11-03 11:56:54,248 DEBUG Received temperature request from telegram
+2018-11-03 12:05:18,336 INFO Start
+2018-11-03 12:05:29,821 INFO Start
+2018-11-03 12:05:29,851 INFO Connected to mqtt server
+2018-11-03 12:05:32,165 DEBUG Received temperature request from telegram
+2018-11-03 12:05:32,264 DEBUG Replying to temperature request to 483593285
+2018-11-03 12:05:56,564 DEBUG Received temperature request from telegram
+2018-11-03 12:05:56,637 DEBUG Replying to temperature request to 483593285
+2018-11-03 12:05:58,591 DEBUG Received temperature request from telegram
+2018-11-03 12:05:58,667 DEBUG Replying to temperature request to 483593285
+2018-11-03 12:06:00,011 DEBUG Stufa ON
+2018-11-03 14:54:06,149 DEBUG Stufa OFF
+2018-11-04 06:58:11,112 DEBUG Stufa ON
+2018-11-04 07:37:06,278 DEBUG Stufa OFF
+2018-11-04 10:45:55,384 DEBUG Stufa ON
+2018-11-04 16:03:36,574 DEBUG Stufa OFF
+2018-11-04 16:03:42,305 DEBUG Received plot request from telegram
+2018-11-04 16:03:47,921 DEBUG Replying to plot request to 483593285
+2018-11-04 16:22:38,504 DEBUG Received temperature request from telegram
+2018-11-04 16:22:38,859 DEBUG Replying to temperature request to 483593285
+2018-11-04 16:22:40,463 DEBUG Received plot request from telegram
+2018-11-04 16:22:44,623 DEBUG Replying to plot request to 483593285
+2018-11-04 21:05:19,837 DEBUG Received temperature request from telegram
+2018-11-04 21:05:20,356 DEBUG Replying to temperature request to 483593285
+2018-11-04 21:17:29,196 DEBUG Received plot request from telegram
+2018-11-04 21:17:32,641 DEBUG Replying to plot request to 483593285
+2018-11-05 23:02:39,232 DEBUG Received temperature request from telegram
+2018-11-05 23:02:39,608 DEBUG Replying to temperature request to 483593285
+2018-11-05 23:02:41,513 DEBUG Received plot request from telegram
+2018-11-05 23:02:44,863 DEBUG Replying to plot request to 483593285
+2018-11-07 18:52:49,653 DEBUG Received temperature request from telegram
+2018-11-07 18:52:50,016 DEBUG Replying to temperature request to 483593285
+2018-11-07 18:52:51,322 DEBUG Stufa ON
+2018-11-07 21:34:02,618 DEBUG Received start request from telegram
+2018-11-07 21:34:20,233 DEBUG Received start request from telegram
+2018-11-07 21:34:22,416 DEBUG Received start request from telegram
+2018-11-07 21:35:56,566 DEBUG Stufa OFF
+2018-11-07 21:55:38,714 DEBUG Received temperature request from telegram
+2018-11-07 21:55:39,051 DEBUG Replying to temperature request to 483593285
+2018-11-07 21:55:40,488 DEBUG Received plot request from telegram
+2018-11-07 21:55:44,091 DEBUG Replying to plot request to 483593285
+2018-11-09 14:48:38,170 DEBUG Received temperature request from telegram
+2018-11-09 14:48:38,533 DEBUG Replying to temperature request to 483593285
+2018-11-09 14:48:40,708 DEBUG Received plot request from telegram
+2018-11-09 14:48:44,232 DEBUG Replying to plot request to 483593285
+2018-11-09 15:13:08,535 DEBUG Stufa ON
+2018-11-09 16:06:24,691 DEBUG Stufa OFF
+2018-11-10 08:25:08,903 INFO Connected to mqtt server
+2018-11-10 08:52:57,880 DEBUG Stufa ON
+2018-11-10 08:58:56,460 DEBUG Received plot request from telegram
+2018-11-10 08:58:59,596 DEBUG Replying to plot request to 483593285
+2018-11-10 09:45:49,198 DEBUG Received plot request from telegram
+2018-11-10 09:45:54,887 DEBUG Replying to plot request to 483593285
+2018-11-10 10:59:10,555 DEBUG Stufa OFF
+2018-11-10 11:30:56,246 DEBUG Stufa ON
+2018-11-10 13:23:06,327 DEBUG Received plot request from telegram
+2018-11-10 13:23:13,272 DEBUG Replying to plot request to 483593285
+2018-11-10 13:23:17,977 DEBUG Stufa OFF
+2018-11-10 15:17:05,070 DEBUG Received plot request from telegram
+2018-11-10 15:17:11,344 DEBUG Replying to plot request to 483593285
+2018-11-10 15:17:13,911 DEBUG Stufa ON
+2018-11-10 18:23:26,442 DEBUG Received temperature request from telegram
+2018-11-10 18:23:26,771 DEBUG Replying to temperature request to 483593285
+2018-11-10 18:23:28,370 DEBUG Stufa OFF
+2018-11-10 18:23:30,283 DEBUG Received plot request from telegram
+2018-11-10 18:23:34,682 DEBUG Replying to plot request to 483593285
+2018-11-11 11:45:19,082 INFO Start
+2018-11-11 11:45:19,129 INFO Connected to mqtt server
+2018-11-11 11:45:26,847 DEBUG Received temperature request from telegram
+2018-11-11 11:45:27,045 DEBUG Replying to temperature request to 483593285
+2018-11-11 11:45:42,964 DEBUG Stufa ON
+2018-11-11 15:04:02,343 DEBUG Stufa OFF
+2018-11-11 15:04:04,200 DEBUG Received plot request from telegram
+2018-11-11 15:04:08,061 DEBUG Replying to plot request to 483593285
+2018-11-11 17:48:10,181 DEBUG Received plot request from telegram
+2018-11-11 17:48:16,950 DEBUG Replying to plot request to 483593285
+2018-11-12 17:58:45,352 DEBUG Received temperature request from telegram
+2018-11-12 17:58:45,729 DEBUG Replying to temperature request to 483593285
+2018-11-12 17:58:48,027 DEBUG Received plot request from telegram
+2018-11-12 17:58:53,592 DEBUG Replying to plot request to 483593285
+2018-11-12 17:58:55,176 DEBUG Stufa ON
+2018-11-12 19:15:57,211 DEBUG Stufa OFF
+2018-11-12 19:15:59,100 DEBUG Received temperature request from telegram
+2018-11-12 19:15:59,179 DEBUG Replying to temperature request to 483593285
+2018-11-12 19:16:00,882 DEBUG Received plot request from telegram
+2018-11-12 19:16:05,908 DEBUG Replying to plot request to 483593285
+2018-11-13 16:30:36,728 DEBUG Received temperature request from telegram
+2018-11-13 16:30:37,425 DEBUG Replying to temperature request to 483593285
+2018-11-13 16:30:40,758 DEBUG Received plot request from telegram
+2018-11-13 16:30:43,808 DEBUG Replying to plot request to 483593285
+2018-11-13 16:30:47,901 DEBUG Stufa ON
+2018-11-13 16:49:18,879 DEBUG Received plot request from telegram
+2018-11-13 16:49:24,476 DEBUG Replying to plot request to 483593285
+2018-11-13 18:02:01,153 DEBUG Stufa OFF
+2018-11-14 08:07:57,180 DEBUG Received temperature request from telegram
+2018-11-14 08:07:57,894 DEBUG Replying to temperature request to 483593285
+2018-11-14 08:08:14,408 DEBUG Received plot request from telegram
+2018-11-14 08:08:23,001 DEBUG Replying to plot request to 483593285
+2018-11-14 19:43:30,397 DEBUG Stufa ON
+2018-11-14 19:44:43,752 DEBUG Received start request from telegram
+2018-11-14 19:47:23,825 DEBUG Received start request from telegram
+2018-11-14 19:49:28,528 DEBUG Received start request from telegram
+2018-11-14 19:49:31,420 DEBUG Received temperature request from telegram
+2018-11-14 19:49:31,579 DEBUG Replying to temperature request to 260884529
+2018-11-14 19:49:32,930 DEBUG Received plot request from telegram
+2018-11-14 19:49:36,294 DEBUG Replying to plot request to 260884529
+2018-11-14 19:49:39,147 DEBUG Stufa OFF
+2018-11-14 19:49:40,624 DEBUG Stufa ON
+2018-11-14 19:49:56,656 DEBUG Received plot request from telegram
+2018-11-14 19:50:01,199 DEBUG Replying to plot request to 260884529
+2018-11-14 19:50:07,343 DEBUG Received temperature request from telegram
+2018-11-14 19:50:07,502 DEBUG Replying to temperature request to 260884529
+2018-11-14 19:50:13,039 DEBUG Stufa ON
+2018-11-14 19:50:14,191 DEBUG Stufa OFF
+2018-11-14 19:50:16,026 DEBUG Stufa ON
