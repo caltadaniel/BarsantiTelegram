@@ -203,10 +203,13 @@ class TelegramBarsanti:
 
     def setpoint(self, bot, update):
         custom_keyboard = [['16', '17', '18', '19'], ['20', '21', '22', '23']]
+        print("setpoint-1")
         reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
+        print("setpoint1")
         bot.send_message(chat_id=update.message.chat.id, text="Insert desired temperature", reply_markup=reply_markup)
         self.last_chat_id = update.message.chat.id
         self.last_request = "setpoint"
+        print("setpoint")
         prog_log.debug('Received new setpoint request')
 
     def comando(self, bot, update):
@@ -282,6 +285,7 @@ class TelegramBarsanti:
     def generic_msg(self,bot, update):
         #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
         if update.message.text == "Heating on":
+            print("setpoint0")
             self.setpoint(bot,update)
         elif update.message.text == "Heating off":
             self.stufa_off(bot,update)
@@ -292,8 +296,8 @@ class TelegramBarsanti:
         elif update.message.chat_id == self.last_chat_id:
             if self.last_request == "setpoint":
                 # we have the new setpoint
-                self.setpoint = float(update.message.text)
-                text_d = "The new setpoint is {}".format(self.setpoint)
+                self.setpoint_val = float(update.message.text)
+                text_d = "The new setpoint is {}".format(self.setpoint_val)
                 bot.send_message(chat_id=update.message.chat_id, text=text_d)
                 self.keyboard(bot, update)
 
