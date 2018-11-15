@@ -65,6 +65,9 @@ class telegram_thread(threading.Thread):
         self.hum_time = []
         self.max_buffer_size = 10000
         self.bot = None
+        self.default = 16
+        self.actual_setpoint = self.default
+        self.heater_enabled = False
 
     def run(self):
         while True:
@@ -86,7 +89,14 @@ class telegram_thread(threading.Thread):
                     self.bot.send_message(chat_id=next_req.chat_id, text=r'Temperatura sala: {}, umidita sala: {}'.format(self.last_temperature_sala, self.last_humidity_sala))
                     prog_log.debug('Replying to temperature request to {}'.format(next_req.chat_id))
                 if next_req.name == "home/sala/stufa":
-                    publish.single("home/sala/stufa", next_req.args[0], hostname=hostname, port=1883)
+                    if int(next_req.args[0]) > 15 and int(next_req.args[0]) < 24:
+                        self.actual_setpoint = int(next_req.args[0])
+                        self.heater_enabled = True
+                        publish.single("home/sala/stufa", "1", hostname=hostname, port=1883)
+                    else:
+                        self.actual_setpoint = self.default
+                        self.heater_enabled = False
+                        publish.single("home/sala/stufa", "0", hostname=hostname, port=1883)
                 if next_req.name == "home/sala/grafico":
                     fig,ax1 = plt.subplots()
                     ax1.plot(self.temp_time, self.temp, 'b-o')
@@ -115,6 +125,14 @@ class telegram_thread(threading.Thread):
                     val = msg.payload.decode('utf-8')
                     numeric_val = float(val)
                     if msg.topic == 'home/sala/temperature':
+                        #temp control
+                        if self.heater_enabled:
+                            if numeric_val < self.actual_setpoint:
+                                # turn on
+                                publish.single("home/sala/stufa", "1", hostname=hostname, port=1883)
+                            else:
+                                # turn off
+                                publish.single("home/sala/stufa", "0", hostname=hostname, port=1883)
                         self.last_temperature_sala = numeric_val
                         self.temp.append(numeric_val)
                         self.temp_time.append(datetime.datetime.now())
@@ -179,15 +197,7 @@ class TelegramBarsanti:
         self.updater = Updater(token)
         self.updater.dispatcher.add_handler(CommandHandler('start', self.start))
         self.updater.dispatcher.add_handler(CommandHandler('help', self.help))
-        #self.updater.dispatcher.add_handler(CommandHandler('comando', self.comando))
-        #self.updater.dispatcher.add_handler(CommandHandler('grafico', self.grafico))
-        #self.updater.dispatcher.add_handler(CommandHandler('temperature', self.temperature))
-        #self.updater.dispatcher.add_handler(CommandHandler('stufa_on', self.stufa_on))
-        #self.updater.dispatcher.add_handler(CommandHandler('stufa_off', self.stufa_off))
-        #self.updater.dispatcher.add_handler(CommandHandler('setpoint', self.setpoint))
         self.updater.dispatcher.add_handler(MessageHandler(Filters.text, self.generic_msg))
-
-        #self.updater.dispatcher.add_handler(CommandHandler('stufa', self.stufa, pass_args=True))
         self.tg_thread = telegram_thread(self.to_telegram_queue)
         self.tg_thread.start()
 
@@ -212,12 +222,6 @@ class TelegramBarsanti:
         print("setpoint")
         prog_log.debug('Received new setpoint request')
 
-    def comando(self, bot, update):
-        custom_keyboard = [['/stufa_on', '/stufa_off'],['/grafico', '/temperature']]
-        reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
-        bot.send_message(chat_id=update.message.chat.id, text ="A two-column menu", reply_markup=reply_markup)
-        prog_log.debug('Received start request from telegram')
-
     def temperature(self, bot, update):
         temp_req = Request("/home/sala/temperature", bot, update.message.chat.id, None)
         requestLock.acquire()
@@ -226,7 +230,7 @@ class TelegramBarsanti:
         # self.bot.send_message(chat_id=self.chat_id, text="Trying to measure the actual temperature")
         prog_log.debug('Received temperature request from telegram')
 
-    def grafico(self, bot, update):
+    def plot(self, bot, update):
         temp_req = Request("home/sala/grafico", bot, update.message.chat.id, None)
         requestLock.acquire()
         request_queue.put(temp_req)
@@ -234,17 +238,17 @@ class TelegramBarsanti:
         # self.bot.send_message(chat_id=self.chat_id, text="Trying to measure the actual temperature")
         prog_log.debug('Received plot request from telegram')
 
-    def stufa_on(self, bot, update):
+    def turn_on_heater(self, bot, update, val):
         prog_log.debug("Stufa ON")
-        update.message.reply_text('Accensione stufa')
-        stufa_req = Request("home/sala/stufa", bot, update.message.chat.id, ["1"])
+        update.message.reply_text('Turning on the heater with the following setpoint: {}'.format(val))
+        stufa_req = Request("home/sala/stufa", bot, update.message.chat.id, [str(val)])
         requestLock.acquire()
         request_queue.put(stufa_req)
         requestLock.release()
 
-    def stufa_off(self, bot, update):
+    def turn_off_heater(self, bot, update):
         prog_log.debug("Stufa OFF")
-        update.message.reply_text('Spegnimento stufa')
+        update.message.reply_text('Turning off the heater')
         stufa_req = Request("home/sala/stufa", bot, update.message.chat.id, ["0"])
         requestLock.acquire()
         request_queue.put(stufa_req)
@@ -257,30 +261,6 @@ class TelegramBarsanti:
                      '1)\\stufaON'
         update.message.reply_text(helpString)
 
-    def stufa(self, bot, update, args):
-        try:
-            # args[0] should contain the time for the timer in seconds
-            state = args[0]
-            if state.lower() == "on":
-                prog_log.debug("Stufa ON")
-                update.message.reply_text('Elaborazione comando accensione stufa')
-                stufa_req = Request("home/sala/stufa", ["1"])
-                requestLock.acquire()
-                request_queue.put(stufa_req)
-                requestLock.release()
-            elif state.lower() == "off":
-                prog_log.debug("Stufa OFF")
-                update.message.reply_text('Elaborazione comando spegnimento stufa')
-                stufa_req = Request("home/sala/stufa", ["0"])
-                requestLock.acquire()
-                request_queue.put(stufa_req)
-                requestLock.release()
-            else:
-                update.message.reply_text('Comando errato... Usare /stufa on oppure /stufa off')
-            #arrivalStation = self.stations[args[1]]
-
-        except (IndexError, ValueError):
-            update.message.reply_text('Wrong arguments')
 
     def generic_msg(self,bot, update):
         #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
@@ -288,17 +268,18 @@ class TelegramBarsanti:
             print("setpoint0")
             self.setpoint(bot,update)
         elif update.message.text == "Heating off":
-            self.stufa_off(bot,update)
+            self.turn_off_heater(bot,update)
         elif update.message.text == "Get plot":
-            self.grafico(bot,update)
+            self.plot(bot,update)
         elif update.message.text == "Get actual temperature":
             self.temperature(bot,update)
         elif update.message.chat_id == self.last_chat_id:
             if self.last_request == "setpoint":
                 # we have the new setpoint
                 self.setpoint_val = float(update.message.text)
-                text_d = "The new setpoint is {}".format(self.setpoint_val)
-                bot.send_message(chat_id=update.message.chat_id, text=text_d)
+                #text_d = "The new setpoint is {}".format(self.setpoint_val)
+                #bot.send_message(chat_id=update.message.chat_id, text=text_d)
+                self.turn_on_heater(bot, update, self.setpoint_val)
                 self.keyboard(bot, update)
 
     def run(self):
