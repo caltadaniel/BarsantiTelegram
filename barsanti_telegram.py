@@ -184,13 +184,24 @@ class TelegramBarsanti:
         self.updater.dispatcher.add_handler(CommandHandler('temperature', self.temperature))
         self.updater.dispatcher.add_handler(CommandHandler('stufa_on', self.stufa_on))
         self.updater.dispatcher.add_handler(CommandHandler('stufa_off', self.stufa_off))
+        self.updater.dispatcher.add_handler(CommandHandler('setpoint', self.setpoint))
+        self.updater.dispatcher.add_handler(MessageHandler(Filters.text, self.generic_msg))
+
         #self.updater.dispatcher.add_handler(CommandHandler('stufa', self.stufa, pass_args=True))
         self.tg_thread = telegram_thread(self.to_telegram_queue)
         self.tg_thread.start()
 
     def start(self, bot, update):
-        update.message.reply_text('Welcome to barsanti control center')
+        update.message.reply_text('Welcome to Barsanti control center')
         prog_log.debug('Received start request from telegram')
+
+    def setpoint(self, bot, update):
+        custom_keyboard = [['16', '17', '18', '19'], ['20', '21', '22', '23']]
+        reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
+        bot.send_message(chat_id=update.message.chat.id, text="Insert desired temperature", reply_markup=reply_markup)
+        self.last_chat_id = update.message.chat.id
+        self.last_request = "setpoint"
+        prog_log.debug('Received new setpoint request')
 
     def comando(self, bot, update):
         custom_keyboard = [['/stufa_on', '/stufa_off'],['/grafico', '/temperature']]
@@ -232,7 +243,9 @@ class TelegramBarsanti:
 
 
     def help(self, bot, update):
-        helpString = 'BlaBla'
+        helpString = 'Benvenuto nel centro di controllo della casa.\n ' \
+                     'I comandi disponibili sono: ' \
+                     '1)\\stufaON'
         update.message.reply_text(helpString)
 
     def stufa(self, bot, update, args):
@@ -259,6 +272,15 @@ class TelegramBarsanti:
 
         except (IndexError, ValueError):
             update.message.reply_text('Wrong arguments')
+
+    def generic_msg(self,bot, update):
+        #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
+        if update.message.chat_id == self.last_chat_id:
+            if self.last_request == "setpoint":
+                # we have the new setpoint
+                self.setpoint = float(update.message.text)
+                text_d = "The new setpoint is {}".format(self.setpoint)
+                bot.send_message(chat_id=update.message.chat_id, text=text_d)
 
     def run(self):
         self.updater.start_polling(timeout=30, read_latency=10)
