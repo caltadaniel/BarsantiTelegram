@@ -179,20 +179,26 @@ class TelegramBarsanti:
         self.updater = Updater(token)
         self.updater.dispatcher.add_handler(CommandHandler('start', self.start))
         self.updater.dispatcher.add_handler(CommandHandler('help', self.help))
-        self.updater.dispatcher.add_handler(CommandHandler('comando', self.comando))
-        self.updater.dispatcher.add_handler(CommandHandler('grafico', self.grafico))
-        self.updater.dispatcher.add_handler(CommandHandler('temperature', self.temperature))
-        self.updater.dispatcher.add_handler(CommandHandler('stufa_on', self.stufa_on))
-        self.updater.dispatcher.add_handler(CommandHandler('stufa_off', self.stufa_off))
-        self.updater.dispatcher.add_handler(CommandHandler('setpoint', self.setpoint))
+        #self.updater.dispatcher.add_handler(CommandHandler('comando', self.comando))
+        #self.updater.dispatcher.add_handler(CommandHandler('grafico', self.grafico))
+        #self.updater.dispatcher.add_handler(CommandHandler('temperature', self.temperature))
+        #self.updater.dispatcher.add_handler(CommandHandler('stufa_on', self.stufa_on))
+        #self.updater.dispatcher.add_handler(CommandHandler('stufa_off', self.stufa_off))
+        #self.updater.dispatcher.add_handler(CommandHandler('setpoint', self.setpoint))
         self.updater.dispatcher.add_handler(MessageHandler(Filters.text, self.generic_msg))
 
         #self.updater.dispatcher.add_handler(CommandHandler('stufa', self.stufa, pass_args=True))
         self.tg_thread = telegram_thread(self.to_telegram_queue)
         self.tg_thread.start()
 
+    def keyboard(self, bot, update):
+        custom_keyboard = [['Heating on', 'Heating off'], ['Automatic control'], ['Get plot', 'Get actual temperature']]
+        reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
+        bot.send_message(chat_id=update.message.chat.id, text="Select the option", reply_markup=reply_markup)
+
     def start(self, bot, update):
         update.message.reply_text('Welcome to Barsanti control center')
+        self.keyboard(bot, update)
         prog_log.debug('Received start request from telegram')
 
     def setpoint(self, bot, update):
@@ -275,12 +281,21 @@ class TelegramBarsanti:
 
     def generic_msg(self,bot, update):
         #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
-        if update.message.chat_id == self.last_chat_id:
+        if update.message.text == "Heating on":
+            self.setpoint(bot,update)
+        elif update.message.text == "Heating off":
+            self.stufa_off(bot,update)
+        elif update.message.text == "Get plot":
+            self.grafico(bot,update)
+        elif update.message.text == "Get actual temperature":
+            self.temperature(bot,update)
+        elif update.message.chat_id == self.last_chat_id:
             if self.last_request == "setpoint":
                 # we have the new setpoint
                 self.setpoint = float(update.message.text)
                 text_d = "The new setpoint is {}".format(self.setpoint)
                 bot.send_message(chat_id=update.message.chat_id, text=text_d)
+                self.keyboard(bot, update)
 
     def run(self):
         self.updater.start_polling(timeout=30, read_latency=10)
