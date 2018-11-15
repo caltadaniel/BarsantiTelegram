@@ -89,8 +89,8 @@ class telegram_thread(threading.Thread):
                     self.bot.send_message(chat_id=next_req.chat_id, text=r'Temperatura sala: {}, umidita sala: {}'.format(self.last_temperature_sala, self.last_humidity_sala))
                     prog_log.debug('Replying to temperature request to {}'.format(next_req.chat_id))
                 if next_req.name == "home/sala/stufa":
-                    if int(next_req.args[0]) > 15 and int(next_req.args[0]) < 24:
-                        self.actual_setpoint = int(next_req.args[0])
+                    if float(next_req.args[0]) > 15 and float(next_req.args[0]) < 24:
+                        self.actual_setpoint = float(next_req.args[0])
                         self.heater_enabled = True
                         publish.single("home/sala/stufa", "1", hostname=hostname, port=1883)
                     else:
@@ -213,13 +213,10 @@ class TelegramBarsanti:
 
     def setpoint(self, bot, update):
         custom_keyboard = [['16', '17', '18', '19'], ['20', '21', '22', '23']]
-        print("setpoint-1")
         reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
-        print("setpoint1")
         bot.send_message(chat_id=update.message.chat.id, text="Insert desired temperature", reply_markup=reply_markup)
         self.last_chat_id = update.message.chat.id
         self.last_request = "setpoint"
-        print("setpoint")
         prog_log.debug('Received new setpoint request')
 
     def temperature(self, bot, update):
@@ -249,7 +246,7 @@ class TelegramBarsanti:
     def turn_off_heater(self, bot, update):
         prog_log.debug("Stufa OFF")
         update.message.reply_text('Turning off the heater')
-        stufa_req = Request("home/sala/stufa", bot, update.message.chat.id, ["0"])
+        stufa_req = Request("home/sala/stufa", bot, update.message.chat.id, ["0.0"])
         requestLock.acquire()
         request_queue.put(stufa_req)
         requestLock.release()
@@ -265,7 +262,6 @@ class TelegramBarsanti:
     def generic_msg(self,bot, update):
         #bot.send_message(chat_id=update.message.chat_id, text=update.message.text)
         if update.message.text == "Heating on":
-            print("setpoint0")
             self.setpoint(bot,update)
         elif update.message.text == "Heating off":
             self.turn_off_heater(bot,update)

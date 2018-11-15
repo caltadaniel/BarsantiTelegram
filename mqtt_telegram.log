@@ -951,3 +951,30 @@
 2018-11-15 22:25:12,933 DEBUG Stufa OFF
 2018-11-15 22:25:22,041 DEBUG Received plot request from telegram
 2018-11-15 22:25:24,402 DEBUG Replying to plot request to 483593285
+2018-11-15 22:47:16,830 INFO Start
+2018-11-15 22:47:16,846 INFO Connected to mqtt server
+2018-11-15 22:47:25,913 DEBUG Received temperature request from telegram
+2018-11-15 22:47:26,222 DEBUG Replying to temperature request to 483593285
+2018-11-15 22:47:28,212 DEBUG Received temperature request from telegram
+2018-11-15 22:47:28,283 DEBUG Replying to temperature request to 483593285
+2018-11-15 22:47:30,181 DEBUG Stufa OFF
+2018-11-15 22:47:32,304 DEBUG Received new setpoint request
+2018-11-15 22:47:34,106 DEBUG Stufa ON
+2018-11-15 22:49:42,884 INFO Start
+2018-11-15 22:49:42,914 INFO Connected to mqtt server
+2018-11-15 22:49:45,525 DEBUG Received new setpoint request
+2018-11-15 22:49:48,376 DEBUG Stufa ON
+2018-11-15 22:49:54,117 DEBUG Stufa OFF
+2018-11-15 22:50:03,097 DEBUG Received temperature request from telegram
+2018-11-15 22:50:03,181 DEBUG Replying to temperature request to 483593285
+2018-11-15 22:50:05,406 DEBUG Received plot request from telegram
+2018-11-15 22:50:07,020 DEBUG Replying to plot request to 483593285
+2018-11-15 22:53:34,859 INFO Start
+2018-11-15 22:53:34,899 INFO Connected to mqtt server
+2018-11-15 22:53:44,912 DEBUG Received new setpoint request
+2018-11-15 22:53:49,977 DEBUG Stufa ON
+2018-11-15 22:53:54,675 DEBUG Received temperature request from telegram
+2018-11-15 22:53:54,744 DEBUG Replying to temperature request to 483593285
+2018-11-15 22:53:56,090 DEBUG Received plot request from telegram
+2018-11-15 22:53:58,442 DEBUG Replying to plot request to 483593285
+2018-11-15 22:54:01,646 DEBUG Stufa OFF
