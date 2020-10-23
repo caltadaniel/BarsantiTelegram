@@ -17,3 +17,11 @@ and then make it executable with chmod 755 launcher.sh
 
 The program now must be correctly set-up to run at every startup
 
+# new update
+added systemctl service
+copy barstel.service in /etc/systemd/system
+start the service: sudo systemctl start barstel.service
+enable it to run at the startup: sudo systemctl enable barstel.service
+reboot the machine
+
+
