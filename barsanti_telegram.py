@@ -12,7 +12,7 @@ matplotlib.use('Pdf')
 import matplotlib.pyplot as plt
 from logging.handlers import RotatingFileHandler
 
-hostname = "192.168.1.96"
+hostname = "192.168.1.9"
 
 DEBUG = False
 logFile = 'mqtt_telegram.log'
@@ -194,7 +194,7 @@ class TelegramBarsanti:
     def __init__(self, token, to_telegram_queue):
         self.token = token
         self.to_telegram_queue = to_telegram_queue
-        self.updater = Updater(token)
+        self.updater = Updater(token,use_context=False)
         self.updater.dispatcher.add_handler(CommandHandler('start', self.start))
         self.updater.dispatcher.add_handler(CommandHandler('help', self.help))
         self.updater.dispatcher.add_handler(MessageHandler(Filters.text, self.generic_msg))

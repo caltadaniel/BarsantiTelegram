@@ -1,0 +1,14 @@
+[Unit]
+Description=Barsanti telegram service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u barsanti_telegram.py -t 536915810:AAEL3tVvT2l7NDizIb6F0iDOdRAyRjLVXfY
+WorkingDirectory=/home/pi/Applications/BarsantiTelegram
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

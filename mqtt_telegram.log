@@ -978,3 +978,132 @@
 2018-11-15 22:53:56,090 DEBUG Received plot request from telegram
 2018-11-15 22:53:58,442 DEBUG Replying to plot request to 483593285
 2018-11-15 22:54:01,646 DEBUG Stufa OFF
+2020-10-23 23:33:50,486 INFO Start
+2020-10-23 23:34:41,449 INFO Start
+2020-10-23 23:38:38,181 INFO Start
+2020-10-23 23:38:38,204 INFO Connected to mqtt server
+2020-10-23 23:41:26,024 INFO Start
+2020-10-23 23:41:26,045 INFO Connected to mqtt server
+2020-10-23 23:42:29,456 INFO Start
+2020-10-23 23:42:29,479 INFO Connected to mqtt server
+2020-10-23 23:42:42,618 DEBUG Received start request from telegram
+2020-10-23 23:42:47,756 DEBUG Received temperature request from telegram
+2020-10-23 23:42:47,844 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:42:53,635 DEBUG Received new setpoint request
+2020-10-23 23:42:55,837 DEBUG Stufa ON
+2020-10-23 23:43:05,309 DEBUG Received new setpoint request
+2020-10-23 23:43:06,483 DEBUG Stufa ON
+2020-10-23 23:43:11,059 DEBUG Stufa OFF
+2020-10-23 23:43:25,999 DEBUG Received plot request from telegram
+2020-10-23 23:43:28,654 DEBUG Replying to plot request to 483593285
+2020-10-23 23:43:31,181 DEBUG Received temperature request from telegram
+2020-10-23 23:43:31,260 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:44:18,045 DEBUG Received new setpoint request
+2020-10-23 23:44:23,273 DEBUG Stufa ON
+2020-10-23 23:47:49,958 INFO Start
+2020-10-23 23:47:49,982 INFO Connected to mqtt server
+2020-10-23 23:48:07,273 DEBUG Received temperature request from telegram
+2020-10-23 23:48:07,774 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:53:55,647 INFO Start
+2020-10-23 23:53:55,673 INFO Connected to mqtt server
+2020-10-23 23:53:56,334 DEBUG Received temperature request from telegram
+2020-10-23 23:53:56,339 DEBUG Received temperature request from telegram
+2020-10-23 23:53:56,343 DEBUG Received temperature request from telegram
+2020-10-23 23:53:56,346 DEBUG Received temperature request from telegram
+2020-10-23 23:53:56,873 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:53:56,962 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:53:57,080 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:53:57,173 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:54:02,796 DEBUG Received temperature request from telegram
+2020-10-23 23:54:02,871 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:56:44,736 INFO Start
+2020-10-23 23:56:44,759 INFO Connected to mqtt server
+2020-10-23 23:57:21,697 DEBUG Received temperature request from telegram
+2020-10-23 23:57:22,243 DEBUG Replying to temperature request to 483593285
+2020-10-23 23:57:25,686 DEBUG Received temperature request from telegram
+2020-10-23 23:57:25,763 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:02:49,184 INFO Start
+2020-10-24 00:02:56,132 INFO Start
+2020-10-24 00:03:02,986 INFO Start
+2020-10-24 00:03:09,877 INFO Start
+2020-10-24 00:03:16,752 INFO Start
+2020-10-24 00:03:23,598 INFO Start
+2020-10-24 00:03:30,337 INFO Start
+2020-10-24 00:03:37,282 INFO Start
+2020-10-24 00:03:44,075 INFO Start
+2020-10-24 00:03:50,977 INFO Start
+2020-10-24 00:03:57,590 INFO Start
+2020-10-24 00:04:04,417 INFO Start
+2020-10-24 00:04:11,182 INFO Start
+2020-10-24 00:04:17,921 INFO Start
+2020-10-24 00:04:24,685 INFO Start
+2020-10-24 00:04:31,432 INFO Start
+2020-10-24 00:04:38,179 INFO Start
+2020-10-24 00:04:44,936 INFO Start
+2020-10-24 00:04:51,699 INFO Start
+2020-10-24 00:04:58,420 INFO Start
+2020-10-24 00:05:05,163 INFO Start
+2020-10-24 00:05:11,949 INFO Start
+2020-10-24 00:05:18,689 INFO Start
+2020-10-24 00:05:25,433 INFO Start
+2020-10-24 00:05:32,180 INFO Start
+2020-10-24 00:05:38,929 INFO Start
+2020-10-24 00:05:45,693 INFO Start
+2020-10-24 00:05:52,447 INFO Start
+2020-10-24 00:05:59,186 INFO Start
+2020-10-24 00:06:06,182 INFO Start
+2020-10-24 00:06:13,012 INFO Start
+2020-10-24 00:06:19,858 INFO Start
+2020-10-24 00:06:26,913 INFO Start
+2020-10-24 00:06:33,741 INFO Start
+2020-10-24 00:06:40,612 INFO Start
+2020-10-24 00:06:47,562 INFO Start
+2020-10-24 00:06:54,217 INFO Start
+2020-10-24 00:07:01,020 INFO Start
+2020-10-24 00:07:07,767 INFO Start
+2020-10-24 00:07:14,603 INFO Start
+2020-10-24 00:07:21,634 INFO Start
+2020-10-24 00:07:28,459 INFO Start
+2020-10-24 00:07:35,266 INFO Start
+2020-10-24 00:15:32,183 INFO Start
+2020-10-24 00:15:32,206 INFO Connected to mqtt server
+2020-10-24 00:15:32,876 DEBUG Received temperature request from telegram
+2020-10-24 00:15:33,390 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:15:37,302 DEBUG Received temperature request from telegram
+2020-10-24 00:15:37,379 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:15:38,779 DEBUG Received temperature request from telegram
+2020-10-24 00:15:38,850 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:15:40,214 DEBUG Received temperature request from telegram
+2020-10-24 00:15:40,288 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:17:43,857 INFO Start
+2020-10-24 00:17:43,879 INFO Connected to mqtt server
+2020-10-24 00:23:09,856 INFO Start
+2020-10-24 00:23:09,879 INFO Connected to mqtt server
+2020-10-24 00:23:10,537 DEBUG Received temperature request from telegram
+2020-10-24 00:23:11,095 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:23:18,946 DEBUG Received temperature request from telegram
+2020-10-24 00:23:19,066 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:23:20,380 DEBUG Received temperature request from telegram
+2020-10-24 00:23:20,451 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:30:47,780 INFO Start
+2020-10-24 00:30:47,801 INFO Connected to mqtt server
+2020-10-24 00:30:48,490 DEBUG Received temperature request from telegram
+2020-10-24 00:30:49,021 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:33:10,377 INFO Start
+2020-10-24 00:33:10,406 INFO Connected to mqtt server
+2020-10-24 00:33:11,113 DEBUG Received temperature request from telegram
+2020-10-24 00:33:11,649 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:34:19,297 DEBUG Received temperature request from telegram
+2020-10-24 00:34:19,524 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:34:20,460 DEBUG Received temperature request from telegram
+2020-10-24 00:34:20,557 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:35:26,445 INFO Start
+2020-10-24 00:35:26,478 INFO Connected to mqtt server
+2020-10-24 00:35:27,162 DEBUG Received temperature request from telegram
+2020-10-24 00:35:27,698 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:35:39,171 DEBUG Received temperature request from telegram
+2020-10-24 00:35:39,251 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:35:40,314 DEBUG Received temperature request from telegram
+2020-10-24 00:35:40,399 DEBUG Replying to temperature request to 483593285
+2020-10-24 00:35:41,126 DEBUG Received temperature request from telegram
+2020-10-24 00:35:41,215 DEBUG Replying to temperature request to 483593285
